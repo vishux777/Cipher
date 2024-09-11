@@ -1,5 +1,7 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 int main(){
-    cout<<"From here uploading daily praticed code on github.Ok then";
+    ofstream file("hyu.txt");
+    //file.close();
 }
